@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vstgui-ui-description version="1">
+
+
+	<bitmaps>
+		<bitmap name="background" path="bg.png" />
+		<bitmap name="KnobL" path="KnobL.png" />
+		<bitmap name="KnobR" path="KnobR.png" />
+	</bitmaps>
+
+	<template name="view" size="250, 400" bitmap="background">
+		<view class="CAnimKnob" control-tag="Gain" size="70, 70" origin="40,33" bitmap="KnobL" height-of-one-image="70"/>
+		<view class="CAnimKnob" control-tag="Dist" size="70, 70" origin="131,33" bitmap="KnobR" height-of-one-image="70"/>
+	</template>
+
+	<control-tags>
+		<control-tag name="Gain" tag="100"/>
+		<control-tag name="Dist" tag="101"/>
+	</control-tags>
+	
+	
+	
+</vstgui-ui-description>
